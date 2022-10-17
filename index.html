@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="./output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+<main class="w-full h-screen flex justify-center items-center bg-dark_blue-200">
+    <section
+            class="bg-gradient-to-r from-black_gradient-start to-black_gradient-end  max-w-sm px-8 lg:pb-8   rounded-3xl bg-gradient-to-t from-neutral-very-dark-blue to-neutral-dark-blue flex flex-col items-start mx-4 lg:mx-[514px] lg:my-[195px] lg:max-h-[416px]">
+        <div class="bg-gradient-radia from-[#232A34] to-[#181E27] min-h-90    lg:min-h-103  ">
+            <img src="images/icon-star.svg" class="mt-6 place-self-start min-h-4 min-w-4 lg:min-h-10 lg:min-w-10">
+            <p class="mt-4 font-Overpass font-bold text-2xl leading-[1.875rem] text-left align-top indent-px text-white">How
+                did we do?</p>
+            <p class="mt-[17px] font-Overpass font-[400] text-sm leading-[1.375rem] text-left align-top indent-px text-[#969FAD] ">
+                Please let us know how we did with your support request. All feedback is appreciated to help us improve
+                our offering!</p>
+            <div class="flex items-center w-full "></div>
+        </div>
+        <ul class="mt-[68px] lg:mt-6 flex justify-between items-center gap-2 w-full ">
+            <li>
+                <input type="radio" id="1" value="" class="peer hidden" required="" name="rating">
+                <label for="1" class="rounded-full w-10 h-10 flex items-center justify-center text-[#7C8798] bg-[#262E38] peer-checked:bg-orange_checked peer-checked:text-white   hover:bg-[#7C8798]  hover:text-white cursor-pointer transition-colors duration-200">
+                    1</label>
+            </li>
+            <li>
+                <input type="radio" id="2" value="" class="peer hidden " required="" name="rating">
+                <label for="2" class=" rounded-full w-10 h-10 flex items-center justify-center text-[#7C8798] bg-[#262E38] peer-checked:bg-orange_checked peer-checked:text-white  hover:bg-[#7C8798] hover:text-white  cursor-pointer transition-colors duration-200">
+                        2
+
+                </label>
+            </li>
+            <li>
+                <input type="radio" id="3" value="" class="hidden peer" required="" name="rating">
+                <label for="3"  class="peer-focus:bg-orange_checked peer-focus:text-white rounded-full w-10 h-10 peer-checked:bg-orange_checked peer-checked:text-white flex items-center justify-center text-[#7C8798] bg-[#262E38]  hover:bg-[#7C8798]  hover:text-white cursor-pointer transition-colors duration-200">
+                        3
+                </label>
+            </li>
+            <li>
+                <input type="radio" id="4" value="" class="hidden peer" required="" name="rating">
+                <label for="4"  class="rounded-full w-10 h-10 flex items-center justify-center text-[#7C8798] bg-[#262E38] peer-checked:bg-orange_checked peer-checked:text-white  hover:bg-[#7C8798]  hover:text-white cursor-pointer transition-colors duration-200">
+                        4
+
+                </label>
+            </li>
+            <li>
+                <input type="radio" id="5" value="" class="hidden peer" required="" name="rating">
+                <label for="5"class="rounded-full w-10 h-10 flex items-center justify-center text-[#7C8798] bg-[#262E38] peer-checked:bg-orange_checked peer-checked:text-white  hover:bg-[#7C8798]  hover:text-white cursor-pointer transition-colors duration-200">
+                        5
+
+                </label>
+            </li>
+
+        </ul>
+
+        <button onclick="location.href='./thanks.html' " class="hover:bg-white hover:text-orange_checked w-full mt-6 py-3 bg-[#FC7614] rounded-[22.5px] text-white font-Overpass font-bold text-sm leading-[1.108rem] tracking-[0.117rem]  ">
+            SUBMIT
+        </button>
+
+    </section>
+
+</main>
+</body>
+</html>
